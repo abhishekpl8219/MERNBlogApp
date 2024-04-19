@@ -11,7 +11,7 @@ export default function Header() {
   const { currentUser } = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const {theme} = useSelector((state)=>state.theme)
-  console.log("value of themda",theme)
+ 
   return (
     <Navbar className=" border-b-2">
       <Link
